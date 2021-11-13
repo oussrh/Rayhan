@@ -1,0 +1,57 @@
+html,body,li,ul{margin:0; padding:0}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+h1{display: none;}
+
+.containerPlayer{
+    width: 40vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    min-width: 200px;
+    height: 200px;
+    align-self: center;
+    margin-top: 50px;
+    float: left;
+
+}
+.player{
+    width: 80%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;}
+
+.social li{
+    display: inline-block;
+    font-size: x-large;
+    color: blanchedalmond;
+}
+
+.social a{cursor: pointer;}
+.containerImg{
+    overflow: hidden;
+    height: 100vh;
+    width: 60vw;
+    background-color: blanchedalmond;
+}
