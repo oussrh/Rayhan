@@ -30,6 +30,7 @@
     "react-iframe": "^1.8.0"
   },
   "devDependencies": {
+    "@netlify/plugin-sitemap": "^0.8.1",
     "prettier": "^2.4.1"
   },
   "repository": {
