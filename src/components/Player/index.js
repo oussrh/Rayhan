@@ -12,7 +12,7 @@ export default function Player() {
     query {
       logo: file(relativePath: { eq: "logo.png" }) {
         childImageSharp {
-          fluid(maxWidth: 200, quality: 100) {
+          fluid(maxWidth: 400, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
             presentationWidth
           }

@@ -55,3 +55,41 @@ h1{display: none;}
     width: 60vw;
     background-color: blanchedalmond;
 }
+
+@media screen and (max-width: 900px) {
+    .containerImg {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      display: none;
+    }
+  }
+
+  @media only screen and (hover: none) and (pointer: coarse){
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .containerImg {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        display: none;
+      }
+
+    .containerPlayer{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .logo{margin-top:0;}
+
+}
