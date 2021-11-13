@@ -20,7 +20,7 @@ export default function Player() {
       }
         bg: file(relativePath: { eq: "bg.jpg" }) {
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(maxWidth: 1200, quality: 100) {
               ...GatsbyImageSharpFluid_withWebp
               presentationWidth
             }
@@ -50,7 +50,7 @@ export default function Player() {
             </ul>
         </div>
         <div className="containerImg">
-            <Img fluid={data.bg.childImageSharp.fluid} objectFit="cover" title="Radio Rayhan" alt="Radio Rayhan"/>           
+            <Img fluid={data.bg.childImageSharp.fluid} objectFit="cover" objectPosition="center bottom" title="Radio Rayhan" alt="Radio Rayhan"/>           
         </div>
     </div>
     </>
