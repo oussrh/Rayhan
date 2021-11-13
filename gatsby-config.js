@@ -21,7 +21,7 @@ module.exports = {
         sitemap: 'https://www.rayhan.eu/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
