@@ -36,6 +36,7 @@ module.exports = {
       options: {
         name: "Radio Rayhan",
         short_name: "Rayhan",
+        description:"Radio Rayhan is a web radio station dedicated to Quran recitation, meaningful songs, Prophets biography, and a variety of lessons and wisdom.",
         start_url: "/",
         background_color: "#000",
         theme_color: "#ffebcd",
@@ -43,6 +44,19 @@ module.exports = {
         icon: "src/imgs/logo.png",
         crossOrigin: `use-credentials`,
       }
-    }
+    },
+    {
+      resolve: `gatsby-remark-twitter-cards`,
+      options: {
+        title: "Radio Rayhan",
+        separator: "|",
+        author: "Radio Rayhan",
+        background: require.resolve("./src/imgs/logo.png"),
+        fontColor: "#ffebcd",
+        titleFontSize: 96,
+        subtitleFontSize: 60,
+        fontStyle: "monospace",
+      },
+    },
   ]
 }

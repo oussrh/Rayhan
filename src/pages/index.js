@@ -8,10 +8,12 @@ import { JsonLd } from '../components/JsonLd'
 export default function Home() {
   return(
       <main>
-          <Helmet>
+          <Helmet htmlAttributes={{
+            lang: 'en',
+          }}>
             <html lang="en" />
             <title>Radio Rayhan</title>
-            <description>Radio Rayhan</description>
+            <description>Radio RayhanRadio Rayhan is a web radio station dedicated to Quran recitation, meaningful songs, Prophets biography, and a variety of lessons and wisdom.</description>
             <JsonLd>
               {{
                 '@context': 'https://schema.org',
@@ -29,6 +31,7 @@ export default function Home() {
             </JsonLd>
           </Helmet>
           <h1>Radio Rayhan</h1>
+          <p>Radio Rayhan is a web radio station dedicated to Quran recitation, meaningful songs, Prophets biography, and a variety of lessons and wisdom.</p>
          <Player/>
       </main>
      

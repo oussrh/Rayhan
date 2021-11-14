@@ -44,7 +44,7 @@ export default function Player() {
                 className="player"
             />
 
-            <ul className="social" role="list" aria-label="true">
+            <ul className="social" aria-label="Follow us">
                 <Link external to="https://www.facebook.com/Rayhan.radio" target="_blank" rel="noopener noreferrer"><li><FaFacebookSquare title="Radio rayhan facebook page" alt="Radio rayhan facebook page"/></li></Link>
                 <Link external to="https://www.instagram.com/radio_rayhan/" target="_blank" rel="noopener noreferrer"><li><FaInstagram title="Radio rayhan instagram page" alt="Radio rayhan instagram page"/></li></Link>
                 <Link external to="https://twitter.com/Radio_Rayhan" target="_blank" rel="noopener noreferrer"><li><FaTwitterSquare title="Radio rayhan Twitter page" alt="Radio rayhan Twitter page"/></li></Link>
