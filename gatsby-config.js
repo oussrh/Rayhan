@@ -31,5 +31,18 @@ module.exports = {
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-  ],
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Radio Rayhan",
+        short_name: "Rayhan",
+        start_url: "/",
+        background_color: "#000",
+        theme_color: "#ffebcd",
+        display: "standalone",
+        icon: "src/imgs/logo.png",
+        crossOrigin: `use-credentials`,
+      }
+    }
+  ]
 }
