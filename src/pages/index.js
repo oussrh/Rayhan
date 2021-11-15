@@ -15,6 +15,18 @@ export default function Home() {
           }}
           meta={[
             {
+              name:"apple-mobile-web-app-title",
+              content:"Rayhan"
+            },
+            {
+              name:"application-name",
+              content:"Rayhan"
+            },
+            {
+              name:"msapplication-TileColor",
+              content:"#2d89ef"
+            },
+            {
               name: `description`,
               content: "Radio Rayhan is a web radio station dedicated to Quran recitation, meaningful songs, Prophets biography, and a variety of lessons and wisdom.",
             },
@@ -63,6 +75,11 @@ export default function Home() {
             <html lang="en" />
             <title>Radio Rayhan</title>
             <description>Radio RayhanRadio Rayhan is a web radio station dedicated to Quran recitation, meaningful songs, Prophets biography, and a variety of lessons and wisdom.</description>
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+            <link rel="manifest" href="/site.webmanifest"/>
+            <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6c5f5f"/>
             <JsonLd>
               {{
                 '@context': 'https://schema.org',
