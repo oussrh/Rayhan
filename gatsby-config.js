@@ -23,6 +23,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
@@ -42,7 +43,6 @@ module.exports = {
         theme_color: "#ffebcd",
         display: "standalone",
         icon: "src/imgs/logo.png",
-        crossOrigin: `use-credentials`,
       }
     },
     {

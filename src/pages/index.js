@@ -19,6 +19,10 @@ export default function Home() {
               content: "Radio Rayhan is a web radio station dedicated to Quran recitation, meaningful songs, Prophets biography, and a variety of lessons and wisdom.",
             },
             {
+              name: `og:url`,
+              content: "https://www.rayhan.eu",
+            },
+            {
               property: `og:title`,
               content: "Radio Rayhan",
             },
