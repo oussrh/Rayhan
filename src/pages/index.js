@@ -73,7 +73,7 @@ export default function Home() {
           ]}
           >
             <html lang="en" />
-            <title>Radio Rayhan</title>
+            <title>Radio Rayhan - Coran and Anachid</title>
             <description>Radio RayhanRadio Rayhan is a web radio station dedicated to Quran recitation, meaningful songs, Prophets biography, and a variety of lessons and wisdom.</description>
             <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
